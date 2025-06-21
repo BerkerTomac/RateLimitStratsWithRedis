@@ -1,4 +1,4 @@
-# RateLimitStratsWithRedis
+# Rate Limiting Strategies With Redis
 
 This project demonstrates three common rate limiting algorithms implemented with Redis:
 
@@ -15,7 +15,7 @@ Can cause burst traffic at window boundaries ("thundering herd" problem).
 
 2. Sliding Window Log
 Description:
-Stores timestamps of requests in Redis sorted sets to calculate the number of requests in a moving time frame (e.g., last 60 seconds).
+Stores timestamps of requests in Redis sorted sets to calculate the number of requests in a moving time frame.
 
 Pros:
 More accurate than Fixed Window.
